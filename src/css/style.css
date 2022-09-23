@@ -1,0 +1,217 @@
+/* universal paddings and margins */
+*{
+    
+    margin:0%;
+    
+}
+.container{
+    min-height: auto;
+    padding: 25px 25px 25px 25px;
+}
+
+.navbar{
+    /* bacground color CSS for navbar */
+   
+    background-color: white;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 30px;
+    overflow: hidden;
+}
+.navbar li {
+    float: right;
+   
+  }
+  
+ .navbar li a {
+    display: block;
+    padding: 10px 10px;
+    /* text-decoration: none; */
+   
+  } 
+  /* CSS FOR SITE LOGO SECTION */
+  .sitelogo h1{
+    padding: 10px 0px 0px 30px;
+  }
+/* css for box section */
+  .main{
+    min-height: 230px;
+    background-color: rgb(209, 205, 205);
+    margin-top: 50px;
+  }
+div .left{
+    width:30%;
+}
+  div .left h1{
+    font-weight: bold;
+    padding: 20px 0px 0px 10px;
+
+  }
+  
+  div .left p{
+    padding: 20px 0px 0px 10px;
+
+  }
+ button{
+    height:30px;
+    width:120px;
+    margin-top: 20px;
+    margin-left:10px;
+    
+ }
+
+ /* css for 3 div starting here */
+
+ .heading{
+    min-height: 400px;
+    margin-top:35px;
+   
+    display:flex;
+    
+ }
+
+
+ div .first{
+    min-height:400px;
+    width: 25%;
+   
+    
+ }
+ div .second{
+    min-height:400px;
+    width: 25%;
+    
+  
+ }
+ div .third{
+    min-height:400px;
+    width: 25%;
+   
+ }
+
+div .f1{
+    height:400px;
+    width:100%;
+    padding: 0px 20px 20px 20px;
+    display: inline-block;
+}
+div .d1{
+    height:150px;
+    width:100%;
+    background-color:lightgrey ;
+    border-radius: 5px;
+}
+.f1 h1{
+    text-align: center;
+}
+.f1 p{
+    text-align: justify;
+}
+.f1 h3{
+    color:black;
+    text-align: center;
+    
+}
+
+
+div .f2{
+    height:400px;
+    width:100%;
+    display: inline-block;
+    padding: 0px 20px 20px 150px;
+}
+div .d2{
+    height:150px;
+    width:100%;
+    background-color:lightgrey ;
+    border-radius: 5px;
+}
+
+.f2 h1{
+    text-align: center;
+}
+.f2 p{
+    text-align: justify;
+}
+.f2 h3{
+    color:black;
+    text-align: center;
+    
+}
+
+
+div .f3{
+    height:400px;
+    width:100%;
+    display: inline-block;
+    padding: 0px 20px 20px 300px;
+}
+div .d3{
+    height:150px;
+    width:100%;
+    background-color:lightgrey ;
+    border-radius: 5px;
+}
+
+.f3 h1{
+    text-align: center;
+}
+.f3 p{
+    text-align: justify;
+}
+.f3 h3{
+    color:black;
+    text-align: center;
+    
+}
+
+/* CSS FOR FOOTER SECTION */
+
+.footer{
+    min-height: 100px;
+    background-color: rgb(209, 205, 205);
+    margin-top: 0px;
+    display:flex;
+    justify-content: center;
+  }
+
+.subscribe h1{
+    color:black;
+    margin-top: 25px;
+}
+
+.search{
+    height:30px;
+    width:220px;
+    margin-left: 20px;
+    margin-top:25px;
+  
+}
+ .b2{
+    background-color:rgb(4, 65, 88);
+    color:white;
+    height:30px;
+    width:220px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+/* CSS FOR COPYRIGHT SECTION AND OTHER */
+.copyright{
+    width:50%
+}
+.cedcoss{
+    width:50%
+}
+.copyright p{
+    margin-left: 20px;
+}
+.bottom{
+    display:flex;
+}
+
+.cedcoss p{
+    float:right;
+}
